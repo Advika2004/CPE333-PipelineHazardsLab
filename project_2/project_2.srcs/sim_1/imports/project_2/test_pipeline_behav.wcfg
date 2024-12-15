@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_pipeline_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_ALU_sv_3572479445 " />
+            <top_module name="glbl" />
+            <top_module name="test_pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="76.575 ns"></ZoomStartTime>
+      <ZoomEndTime time="127.126 ns"></ZoomEndTime>
+      <Cursor1Time time="85.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wave_markers>
+      <marker time="10345000" label="" />
+      <marker time="420315000" label="" />
+      <marker time="5915150" label="" />
+      <marker time="985000" label="" />
+      <marker time="2895000" label="" />
+      <marker time="635915050" label="" />
+      <marker time="635885000" label="" />
+      <marker time="635945000" label="" />
+      <marker time="75000" label="" />
+      <marker time="55000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/test_pipeline/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group44" type="group">
+      <obj_property name="label">MEMORY_SIGNALS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider144">
+      <obj_property name="label">FETCH_STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group149" type="group">
+      <obj_property name="label">FETCH_GROUP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group24" type="group">
+         <obj_property name="label">PC_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/CLK" type="logic">
+            <obj_property name="ElementShortName">CLK</obj_property>
+            <obj_property name="ObjectShortName">CLK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/RST" type="logic">
+            <obj_property name="ElementShortName">RST</obj_property>
+            <obj_property name="ObjectShortName">RST</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_WRITE" type="logic">
+            <obj_property name="ElementShortName">PC_WRITE</obj_property>
+            <obj_property name="ObjectShortName">PC_WRITE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_SOURCE" type="array">
+            <obj_property name="ElementShortName">PC_SOURCE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_SOURCE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/JALR" type="array">
+            <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+            <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/BRANCH" type="array">
+            <obj_property name="ElementShortName">BRANCH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BRANCH[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/JAL" type="array">
+            <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+            <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_IN" type="array">
+            <obj_property name="ElementShortName">PC_IN[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_IN[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_OUT_PLUS_FOUR" type="array">
+            <obj_property name="ElementShortName">PC_OUT_PLUS_FOUR[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_OUT_PLUS_FOUR[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_OUT_INC" type="array">
+            <obj_property name="ElementShortName">PC_OUT_INC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_OUT_INC[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_OUT" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">PC_Output_Fetch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/MEPC" type="array">
+            <obj_property name="ElementShortName">MEPC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">MEPC[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_PC/MTVEC" type="array">
+            <obj_property name="ElementShortName">MTVEC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">MTVEC[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group150" type="group">
+         <obj_property name="label">INSTRUCTION_MEM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_RDEN1" type="logic">
+            <obj_property name="ElementShortName">MEM_RDEN1</obj_property>
+            <obj_property name="ObjectShortName">MEM_RDEN1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_ADDR1" type="array">
+            <obj_property name="ElementShortName">MEM_ADDR1[13:0]</obj_property>
+            <obj_property name="ObjectShortName">MEM_ADDR1[13:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_DOUT1" type="array">
+            <obj_property name="ElementShortName">MEM_DOUT1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">MEM_DOUT1[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider145">
+      <obj_property name="label">DECODE_STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/dut/fetch2dec" type="array">
+      <obj_property name="ElementShortName">fetch2dec</obj_property>
+      <obj_property name="ObjectShortName">fetch2dec</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group164" type="group">
+      <obj_property name="label">DECODE_GROUP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group82" type="group">
+         <obj_property name="label">REG_FILE_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/CLK" type="logic">
+            <obj_property name="ElementShortName">CLK</obj_property>
+            <obj_property name="ObjectShortName">CLK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/EN" type="logic">
+            <obj_property name="ElementShortName">EN</obj_property>
+            <obj_property name="ObjectShortName">EN</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/ADR1" type="array">
+            <obj_property name="ElementShortName">ADR1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">ADR1[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/ADR2" type="array">
+            <obj_property name="ElementShortName">ADR2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">ADR2[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/WA" type="array">
+            <obj_property name="ElementShortName">WA[4:0]</obj_property>
+            <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/WD" type="array">
+            <obj_property name="ElementShortName">WD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/RS1" type="array">
+            <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/RS2" type="array">
+            <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/ram" type="array">
+            <obj_property name="ElementShortName">ram[0:31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">ram[0:31][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group89" type="group">
+         <obj_property name="label">IMMED_GEN_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_IMGEN/IR" type="array">
+            <obj_property name="ElementShortName">IR[24:0]</obj_property>
+            <obj_property name="ObjectShortName">IR[24:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_IMGEN/U_TYPE" type="array">
+            <obj_property name="ElementShortName">U_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">U_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_IMGEN/I_TYPE" type="array">
+            <obj_property name="ElementShortName">I_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">I_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_IMGEN/S_TYPE" type="array">
+            <obj_property name="ElementShortName">S_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">S_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_IMGEN/B_TYPE" type="array">
+            <obj_property name="ElementShortName">B_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_IMGEN/J_TYPE" type="array">
+            <obj_property name="ElementShortName">J_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">J_TYPE[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group131" type="group">
+         <obj_property name="label">DECODER_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/IR_30" type="logic">
+            <obj_property name="ElementShortName">IR_30</obj_property>
+            <obj_property name="ObjectShortName">IR_30</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/OPCODE" type="array">
+            <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+            <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/IR_FUNCT" type="array">
+            <obj_property name="ElementShortName">IR_FUNCT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">IR_FUNCT[2:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/BRANCHsig" type="logic">
+            <obj_property name="ElementShortName">BRANCHsig</obj_property>
+            <obj_property name="ObjectShortName">BRANCHsig</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/JALsig" type="logic">
+            <obj_property name="ElementShortName">JALsig</obj_property>
+            <obj_property name="ObjectShortName">JALsig</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/JALRsig" type="logic">
+            <obj_property name="ElementShortName">JALRsig</obj_property>
+            <obj_property name="ObjectShortName">JALRsig</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/ALU_FUN" type="array">
+            <obj_property name="ElementShortName">ALU_FUN[3:0]</obj_property>
+            <obj_property name="ObjectShortName">ALU_FUN[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/ALU_SRCA" type="logic">
+            <obj_property name="ElementShortName">ALU_SRCA</obj_property>
+            <obj_property name="ObjectShortName">ALU_SRCA</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/ALU_SRCB" type="array">
+            <obj_property name="ElementShortName">ALU_SRCB[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALU_SRCB[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/RF_WR_SEL" type="array">
+            <obj_property name="ElementShortName">RF_WR_SEL[1:0]</obj_property>
+            <obj_property name="ObjectShortName">RF_WR_SEL[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/REG_WRITE" type="logic">
+            <obj_property name="ElementShortName">REG_WRITE</obj_property>
+            <obj_property name="ObjectShortName">REG_WRITE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/MEM_WE2" type="logic">
+            <obj_property name="ElementShortName">MEM_WE2</obj_property>
+            <obj_property name="ObjectShortName">MEM_WE2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_DCDR/MEM_RDEN2" type="logic">
+            <obj_property name="ElementShortName">MEM_RDEN2</obj_property>
+            <obj_property name="ObjectShortName">MEM_RDEN2</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider146">
+      <obj_property name="label">EXECUTE_STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/dut/dec2exec" type="array">
+      <obj_property name="ElementShortName">dec2exec</obj_property>
+      <obj_property name="ObjectShortName">dec2exec</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group165" type="group">
+      <obj_property name="label">EXECUTE_GROUP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group123" type="group">
+         <obj_property name="label">ALU_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/SRC_A" type="array">
+            <obj_property name="ElementShortName">SRC_A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">SRC_A[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/SRC_B" type="array">
+            <obj_property name="ElementShortName">SRC_B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">SRC_B[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/ALU_FUN" type="array">
+            <obj_property name="ElementShortName">ALU_FUN[3:0]</obj_property>
+            <obj_property name="ObjectShortName">ALU_FUN[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/RESULT" type="array">
+            <obj_property name="ElementShortName">RESULT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RESULT[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group6019" type="group">
+         <obj_property name="label">FORWARD_MUX_A</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/test_pipeline/dut/forwardA" type="array">
+            <obj_property name="ElementShortName">forwardA[1:0]</obj_property>
+            <obj_property name="ObjectShortName">forwardA[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/ForwardMuxA_out" type="array">
+            <obj_property name="ElementShortName">ForwardMuxA_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ForwardMuxA_out[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group110" type="group">
+         <obj_property name="label">ALU_MUX_B_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXB/SEL" type="array">
+            <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+            <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXB/ZERO" type="array">
+            <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXB/ONE" type="array">
+            <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXB/TWO" type="array">
+            <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+            <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXB/THREE" type="array">
+            <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXB/OUT" type="array">
+            <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="group103" type="group">
+            <obj_property name="label">ALU_MUX_A_SIGNALS</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXA/ALU_SRC_A" type="logic">
+               <obj_property name="ElementShortName">ALU_SRC_A</obj_property>
+               <obj_property name="ObjectShortName">ALU_SRC_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXA/RS1" type="array">
+               <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXA/U_TYPE" type="array">
+               <obj_property name="ElementShortName">U_TYPE[31:0]</obj_property>
+               <obj_property name="ObjectShortName">U_TYPE[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/test_pipeline/dut/OTTER_ALU_MUXA/SRC_A" type="array">
+               <obj_property name="ElementShortName">SRC_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">SRC_A[31:0]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group125" type="group">
+         <obj_property name="label">BCG_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/RS1" type="array">
+            <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/RS2" type="array">
+            <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/func3" type="array">
+            <obj_property name="ElementShortName">func3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/ir" type="array">
+            <obj_property name="ElementShortName">ir[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/jal" type="logic">
+            <obj_property name="ElementShortName">jal</obj_property>
+            <obj_property name="ObjectShortName">jal</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/jalr" type="logic">
+            <obj_property name="ElementShortName">jalr</obj_property>
+            <obj_property name="ObjectShortName">jalr</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/branch" type="logic">
+            <obj_property name="ElementShortName">branch</obj_property>
+            <obj_property name="ObjectShortName">branch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/pc_source" type="array">
+            <obj_property name="ElementShortName">pc_source[2:0]</obj_property>
+            <obj_property name="ObjectShortName">pc_source[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/BR_EQ" type="logic">
+            <obj_property name="ElementShortName">BR_EQ</obj_property>
+            <obj_property name="ObjectShortName">BR_EQ</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/BR_LT" type="logic">
+            <obj_property name="ElementShortName">BR_LT</obj_property>
+            <obj_property name="ObjectShortName">BR_LT</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/BR_LTU" type="logic">
+            <obj_property name="ElementShortName">BR_LTU</obj_property>
+            <obj_property name="ObjectShortName">BR_LTU</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group98" type="group">
+         <obj_property name="label">BAG_SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/RS1" type="array">
+            <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/I_TYPE" type="array">
+            <obj_property name="ElementShortName">I_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">I_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/J_TYPE" type="array">
+            <obj_property name="ElementShortName">J_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">J_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/B_TYPE" type="array">
+            <obj_property name="ElementShortName">B_TYPE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B_TYPE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/FROM_PC" type="array">
+            <obj_property name="ElementShortName">FROM_PC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FROM_PC[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/JAL" type="array">
+            <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+            <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/JALR" type="array">
+            <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+            <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test_pipeline/dut/OTTER_BAG/BRANCH" type="array">
+            <obj_property name="ElementShortName">BRANCH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BRANCH[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider147">
+      <obj_property name="label">MEMORY_STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/dut/exec2mem" type="array">
+      <obj_property name="ElementShortName">exec2mem</obj_property>
+      <obj_property name="ObjectShortName">exec2mem</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group151" type="group">
+      <obj_property name="label">DATA_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_CLK" type="logic">
+         <obj_property name="ElementShortName">MEM_CLK</obj_property>
+         <obj_property name="ObjectShortName">MEM_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_RDEN1" type="logic">
+         <obj_property name="ElementShortName">MEM_RDEN1</obj_property>
+         <obj_property name="ObjectShortName">MEM_RDEN1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_RDEN2" type="logic">
+         <obj_property name="ElementShortName">MEM_RDEN2</obj_property>
+         <obj_property name="ObjectShortName">MEM_RDEN2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_WE2" type="logic">
+         <obj_property name="ElementShortName">MEM_WE2</obj_property>
+         <obj_property name="ObjectShortName">MEM_WE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_ADDR1" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR1[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_ADDR2" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_DIN2" type="array">
+         <obj_property name="ElementShortName">MEM_DIN2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DIN2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_SIZE" type="array">
+         <obj_property name="ElementShortName">MEM_SIZE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIZE[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_SIGN" type="logic">
+         <obj_property name="ElementShortName">MEM_SIGN</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIGN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/IO_IN" type="array">
+         <obj_property name="ElementShortName">IO_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IO_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/IO_WR" type="logic">
+         <obj_property name="ElementShortName">IO_WR</obj_property>
+         <obj_property name="ObjectShortName">IO_WR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_DOUT1" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/MEM_DOUT2" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_MEMORY/memReadWord" type="array">
+         <obj_property name="ElementShortName">memReadWord[31:0]</obj_property>
+         <obj_property name="ObjectShortName">memReadWord[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider148">
+      <obj_property name="label">WRITEBACK_STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/dut/mem2wb" type="array">
+      <obj_property name="ElementShortName">mem2wb</obj_property>
+      <obj_property name="ObjectShortName">mem2wb</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group63" type="group">
+      <obj_property name="label">REG_MUX_SIGNALS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/dut/mem2wb.pc_out_inc" type="array">
+         <obj_property name="ElementShortName">.pc_out_inc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.pc_out_inc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/mem2wb.alu_result" type="array">
+         <obj_property name="ElementShortName">.alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.alu_result[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/mem2wb.dout2" type="array">
+         <obj_property name="ElementShortName">.dout2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.dout2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/mem2wb.wb_sel" type="array">
+         <obj_property name="ElementShortName">.wb_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">.wb_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/wb_out" type="array">
+         <obj_property name="ElementShortName">wb_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider882">
+      <obj_property name="label">Registers for Debugging</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group881" type="group">
+      <obj_property name="label">RegFile Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/ram" type="array">
+         <obj_property name="ElementShortName">ram[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ram[0:31][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2936">
+      <obj_property name="label">different PC&apos;s</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2935" type="group">
+      <obj_property name="label">different PC&apos;s</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_PC/PC_OUT" type="array">
+         <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/fetch2dec.pc_out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="label">fetch2decode pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/dec2exec.pc_out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="label">decode2exec pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/exec2mem.pc_out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="label">exec2mem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/mem2wb.pc_out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.pc_out[31:0]</obj_property>
+         <obj_property name="label">mem2wb</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider818">
+      <obj_property name="label">Branch Hazard Tests</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group816" type="group">
+      <obj_property name="label">BCG signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/RS1" type="array">
+         <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/RS2" type="array">
+         <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/func3" type="array">
+         <obj_property name="ElementShortName">func3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/ir" type="array">
+         <obj_property name="ElementShortName">ir[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/jal" type="logic">
+         <obj_property name="ElementShortName">jal</obj_property>
+         <obj_property name="ObjectShortName">jal</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/jalr" type="logic">
+         <obj_property name="ElementShortName">jalr</obj_property>
+         <obj_property name="ObjectShortName">jalr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/branch" type="logic">
+         <obj_property name="ElementShortName">branch</obj_property>
+         <obj_property name="ObjectShortName">branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/branch_taken" type="logic">
+         <obj_property name="ElementShortName">branch_taken</obj_property>
+         <obj_property name="ObjectShortName">branch_taken</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/pc_source" type="array">
+         <obj_property name="ElementShortName">pc_source[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_source[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/BR_EQ" type="logic">
+         <obj_property name="ElementShortName">BR_EQ</obj_property>
+         <obj_property name="ObjectShortName">BR_EQ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/BR_LT" type="logic">
+         <obj_property name="ElementShortName">BR_LT</obj_property>
+         <obj_property name="ObjectShortName">BR_LT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_BCG/BR_LTU" type="logic">
+         <obj_property name="ElementShortName">BR_LTU</obj_property>
+         <obj_property name="ObjectShortName">BR_LTU</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group817" type="group">
+      <obj_property name="label">Hazard Module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_pipeline/dut/fetch2dec_flush" type="logic">
+         <obj_property name="ElementShortName">fetch2dec_flush</obj_property>
+         <obj_property name="ObjectShortName">fetch2dec_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/dec2exec_flush" type="logic">
+         <obj_property name="ElementShortName">dec2exec_flush</obj_property>
+         <obj_property name="ObjectShortName">dec2exec_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/exec2mem_flush" type="logic">
+         <obj_property name="ElementShortName">exec2mem_flush</obj_property>
+         <obj_property name="ObjectShortName">exec2mem_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/mem2wb_flush" type="logic">
+         <obj_property name="ElementShortName">mem2wb_flush</obj_property>
+         <obj_property name="ObjectShortName">mem2wb_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/hazard_mod/branch_taken" type="logic">
+         <obj_property name="ElementShortName">branch_taken</obj_property>
+         <obj_property name="ObjectShortName">branch_taken</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/RS1" type="array">
+         <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_REG_FILE/RS2" type="array">
+         <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1948">
+      <obj_property name="label">Data Hazard Tests</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1947" type="group">
+      <obj_property name="label">ForwardingUnit Singlas</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/dec2exec_rs1" type="array">
+         <obj_property name="ElementShortName">dec2exec_rs1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">dec2exec_rs1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/dec2exec_rs2" type="array">
+         <obj_property name="ElementShortName">dec2exec_rs2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">dec2exec_rs2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/mem_rd" type="array">
+         <obj_property name="ElementShortName">mem_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_rd[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/mem_reg_write" type="logic">
+         <obj_property name="ElementShortName">mem_reg_write</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/wb_rd" type="array">
+         <obj_property name="ElementShortName">wb_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_rd[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/wb_reg_write" type="logic">
+         <obj_property name="ElementShortName">wb_reg_write</obj_property>
+         <obj_property name="ObjectShortName">wb_reg_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/FORWARDA" type="array">
+         <obj_property name="ElementShortName">FORWARDA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">FORWARDA[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/forwarding_unit/FORWARDB" type="array">
+         <obj_property name="ElementShortName">FORWARDB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">FORWARDB[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group4709" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/SRC_A" type="array">
+         <obj_property name="ElementShortName">SRC_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SRC_A[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/SRC_B" type="array">
+         <obj_property name="ElementShortName">SRC_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SRC_B[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/ALU_FUN" type="array">
+         <obj_property name="ElementShortName">ALU_FUN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_FUN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/OTTER_ALU/RESULT" type="array">
+         <obj_property name="ElementShortName">RESULT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RESULT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group7686" type="group">
+      <obj_property name="label">Load-Use Hazard Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/dut/hazard_detector/MEMREAD" type="logic">
+         <obj_property name="ElementShortName">MEMREAD</obj_property>
+         <obj_property name="ObjectShortName">MEMREAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/hazard_detector/dec2exec_rd" type="array">
+         <obj_property name="ElementShortName">dec2exec_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">dec2exec_rd[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/hazard_detector/fetch2dec_rs1" type="array">
+         <obj_property name="ElementShortName">fetch2dec_rs1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">fetch2dec_rs1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/hazard_detector/fetch2dec_rs2" type="array">
+         <obj_property name="ElementShortName">fetch2dec_rs2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">fetch2dec_rs2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/hazard_detector/HazardDetected" type="logic">
+         <obj_property name="ElementShortName">HazardDetected</obj_property>
+         <obj_property name="ObjectShortName">HazardDetected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/pc_write" type="logic">
+         <obj_property name="ElementShortName">pc_write</obj_property>
+         <obj_property name="ObjectShortName">pc_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/fetch2dec_write" type="logic">
+         <obj_property name="ElementShortName">fetch2dec_write</obj_property>
+         <obj_property name="ObjectShortName">fetch2dec_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/dut/loadUseFlush" type="logic">
+         <obj_property name="ElementShortName">loadUseFlush</obj_property>
+         <obj_property name="ObjectShortName">loadUseFlush</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Dec 14 15:54:33 2024
+# Process ID: 2524
+# Current directory: C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22596
+# Log file: C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: Advika-Android, OS: Windows, CPU Frequency: 1797 MHz, CPU Physical cores: 16, Host memory: 19165 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Advika Deodhar/Downloads/333OTTER/333OTTER/333OTTER.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/Advika Deodhar/Downloads/333OTTERPipelineWHazards/project_3/project_3.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/Advika Deodhar/Downloads/333OTTERPiped/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/Advika Deodhar/Downloads/333OTTERPipeline/project_2/project_2.xpr}
+update_compile_order -fileset sources_1
+archive_project {C:/Users/Advika Deodhar/Desktop/CPE333Labs/Pipeline-Hazards-Lab.xpr.zip} -temp_dir {C:/Users/Advika Deodhar/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-2524-Advika-Android} -force -include_local_ip_cache -include_config_settings
